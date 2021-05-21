@@ -62,7 +62,7 @@ def get_data_from_yahoo(reload_sp500=False):
         else:
             print('Already have {}'.format(ticker))
 
-get_data_from_yahoo(reload_sp500=True)
+# get_data_from_yahoo(reload_sp500=True)
 
 
 def compile_data():
@@ -89,7 +89,7 @@ def compile_data():
     print(main_df.head())
     main_df.to_csv('sp500_joined_closes.csv')
 
-compile_data()
+# compile_data()
 
 # python for finance part 8
 def vizualize_data():
